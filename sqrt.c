@@ -12,17 +12,17 @@ int main(int argc, char* argv[])
 {
 	if (argc != 2) 
 	{
-		printf("Sqrt of %d is %f i\n", input, sqrt(abs(input)));
+		printf("NEGSUPPORT:Sqrt of %d is %f i\n", input, sqrt(abs(input)));
 		return(0);
 	}
 	if(input < 0) 
 	{
-		printf("Invalid Input");
+		printf("NEGSUPPORT:Invalid Input");
 		exit(-1);
 	}
 	int input = atoi(argv[1]);
-	printf("Sqrt of %d is %f\n", input, sqrt(input));
-	printf("End of program. Exiting.");
+	printf("NEGSUPPORT:Sqrt of %d is %f\n", input, sqrt(input));
+	printf("NEGSUPPORT:End of program. Exiting.");
 	return(0);
 
 } // end main
