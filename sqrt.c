@@ -1,6 +1,8 @@
 /* This program computes the square root of a
 positive number. */
-//Jhalak Choudhary b17046
+
+//Jhalak Choudhary 
+//b17046
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,6 +14,7 @@ int main(int argc, char* argv[]) {
 		printf("Usage: sqrt input\n\n");
 		exit(-1);
 	}
+	
 
 	int input = atoi(argv[1]);
 	printf("Sqrt of %d is %f\n",input,sqrt(input));
