@@ -12,8 +12,8 @@ int main(int argc, char* argv[])
 {
 	if (argc != 2) 
 	{
-		printf("Usage: sqrt input\n\n");
-		exit(-1);
+		printf("Sqrt of %d is %f i\n", input, sqrt(abs(input)));
+		return(0);
 	}
 	if(input < 0) 
 	{
