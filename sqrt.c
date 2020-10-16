@@ -16,11 +16,12 @@ int main(int argc, char* argv[])
 	}
 	if(input < 0) {
 		printf("DEBUG:Invalid Input");
+
 		exit(-1);
 	}
 	int input = atoi(argv[1]);
-	printf("DEBUG:Sqrt of %d is %f\n",input,sqrt(input));
-	printf("DEBUG:End of program. Exiting.");
+	printf("NEGSUPPORT:Sqrt of %d is %f\n", input, sqrt(input));
+	printf("NEGSUPPORT:End of program. Exiting.");
 	return(0);
 
 } // end main
